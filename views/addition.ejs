@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>my page</title>
+
+</head>
+
+<body>
+    <center>
+        <form action="/add_now" method="post">
+            1st<input type="number" required name="ist"><br><br>
+            2st<input type="number" required name="iind"><br><br>
+            <button>add now</button>
+
+
+        </form>
+    </center>
+    <%
+    if(result)
+     {%>
+        <h1>
+            <%=result%>
+        </h1>
+        <%}
+        %>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/find_multi" method="post" align="center">
+        enter ist value<input type="number" name="ist" required><br><br>
+        enter iind value<input type="number" name="iind" required><br><br>
+        <button>find it</button>
+    </form>
+
+    <% if(result)
+    { %>
+    <h1 align="center"><%=result%></h1>
+    <% } %>
+</body>
+</html>
